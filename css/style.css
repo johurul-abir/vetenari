@@ -1,0 +1,569 @@
+/*.....google-fonts...*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+/*.......google fonts......
+font-family: 'Poppins', sans-serif;
+/*==========================
+GLOBAL CSS
+============================*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+font-family: 'Poppins', sans-serif;	
+}
+img{
+	width: 100%;
+}
+/*==========================
+ NAV SECTION start
+============================*/
+
+nav{
+	font-family: 'Bebas Neue', cursive;	
+}
+
+nav{
+	background: #daac00;height: 50px;}
+.search{width: 100px;display: block;float: right;
+	margin-top: 5px;}
+ .checkbtn{
+ 	float: left;
+ 	font-size: 30px;
+ 	color: white;
+ 	cursor: pointer;
+ 	line-height: 53px;
+ 	display: none;
+ 	margin-left: 200px;
+ }
+
+.logo{
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	padding-left: 30px;
+	line-height: 50px;
+	float: left;
+}
+ nav ul{
+ 	float: right;
+ 	padding-right: 73px;
+ }
+ nav ul li{
+ 	display: inline;
+ 	line-height: 49px;
+    margin-left: 20px;
+ }
+ nav a{
+ 	font-size: 18px;
+ 	color: white;
+ 	letter-spacing: 1px;
+ 	padding: 2px 10px;
+ }
+
+nav .active{
+	padding: 2px 10px;
+}
+.active:hover{
+ 	background:#05c6ef;
+ 	padding: 2px 10px;
+ 	color: white;
+ 	border-radius: 3px;
+ }
+
+ #check{
+ 	display: none;
+
+ }
+
+/*==========================
+ hero SECTION start
+============================*/
+.hero{
+	background: #fcc302;
+	padding: 50px 0px;
+}
+.hero h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	color: white;
+	padding-top: 100px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.hero p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	color: white;
+	padding: 20px 0px;
+
+
+}
+.hero img{
+	width: 70%;
+	padding-left: 20px;
+
+}
+.hero button{
+	font-size: 15px;
+    padding: 12px 28px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    background: #00bec9;
+    color: white;
+    font-weight: 500;
+   	transition: 0.4s;
+}
+.hero button:hover{
+	background: transparent;
+	border: 2px solid white;
+}
+
+/*==========================
+ serviec SECTION start
+============================*/
+
+.service{
+	padding: 100px 0px;
+
+}
+.service h2{
+	font-size: 40px;
+	font-weight: 600;
+	padding-top: 50px;
+
+}
+
+.service p{
+	font-size: 16px;
+	padding: 20px 0px;
+
+
+}
+
+.service img{
+	width: 80%;
+
+}
+.service button{
+	font-size: 15px;
+    padding: 12px 28px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    background: #00bec9;
+    color: white;
+    font-weight: 500;
+    transition: 0.4s;
+}
+
+.service button:hover{
+	border: 2px solid #00bec9;
+	color: #00bec9;
+	background: white;
+}
+
+
+/*==========================
+ title here SECTION start
+============================*/
+
+
+.title-here{
+	padding: 50px 0px;
+	background: #fcc302;
+}
+.title-here h2{
+	font-weight: 800;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+.title-here p{
+	font-size: 15px;
+	text-align: center;
+	color: white;
+}
+
+/*==========================
+ care SECTION start
+============================*/
+.care{
+	background:#fcc302 ;
+	padding: 50px 0px;
+}
+.care img{
+	width: 90%;
+	display: block;
+	margin: 0px auto;
+	border: 5px solid white;
+}
+.care h3{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+
+}
+.care p{
+	font-size: 16px;
+	color: white;
+	text-align: center;
+}
+
+/*==========================
+ lover SECTION start
+============================*/
+
+.lover{
+	padding: 100px 0px;
+
+}
+
+.lover img{
+	width: 80%;
+	display: block;
+	margin: 0px auto;
+
+}
+.lover h2{
+	font-size: 30px;
+	font-weight: 600;
+	padding-top: 50px;
+	text-align: right;
+
+}
+.lover p{
+ font-size: 16px ;
+ font-weight: 400;
+ padding: 30px 0px;
+text-align: right;
+
+}
+.lover button{
+	font-size: 16px;
+	padding: 10px 15px;
+	background:#fcc302 ;
+	border: 1px solid #fcc302;
+	border-radius: 4px;
+	display: block;
+	margin-left: 76%;
+	color: white;
+	transition: 0.4s;
+}
+.lover button:hover{
+	border: 2px solid #00bec9;
+	color: #00bec9;
+	background: white;
+}
+
+/*==========================
+ shop-title SECTION start
+============================*/
+
+.shop-title{
+	padding: 80px;
+	background: #fcc302;
+}
+
+.shop-title h1{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	font-weight: 800;
+
+}
+.shop-title p{
+	font-size: px;
+	color: white;
+	text-align: center;
+}
+
+/*==========================
+ shop-now SECTION start
+============================*/
+
+.shop-now{
+	background:#fcc302 ;
+	padding: 10px 0px;
+}
+.shop-now h2{
+	color: white;
+	text-align: center;
+	padding: 20px 0px;
+
+}
+.shop-now img{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	border: 5px solid white;
+}
+.shop-now button{
+	font-size: 16px;
+	padding: 10px 38px;
+	background:#00bec9 ;
+	border: 2px solid #00bec9;
+	border-radius: 26px;
+	display: block;
+	margin: 0px auto;
+	color: white;
+	transition: 0.4s;
+}
+.shop-now button:hover{
+	border: 2px solid #00bec9;
+	color: #00bec9;
+	background: white;
+}
+/*==========================
+ team SECTION start
+============================*/
+
+.team{
+	padding: 100px 0px;
+}
+.team h1{
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+}
+.team p{
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+/*==========================
+ team SECTION start
+============================*/
+
+.doctor{
+	padding-bottom: 100px;
+}
+.doctor img{
+ width: 80%;
+ display: block;
+ margin: 0px auto;
+ border: 5px solid white;
+}
+.doctor h3{
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	padding: 10px 0px;
+
+}
+
+.doctor p{
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.doctor li{
+	display: inline;
+	font-weight: 400;
+	text-align: center;
+	margin: 0px 3px;
+	
+}
+.doctor ul{
+	text-align:center ;
+	padding: 0px;
+
+}
+.doctor i{
+	width: 30px;
+    height: 30px;
+    background: #fcc302;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 100%;
+    color: white;
+    border: 1px solid transparent;
+    transition: 0.4s;
+}
+.doctor i:hover{
+	color:#fcc302 ;
+	border: 1px solid #fcc302;
+	background: transparent;
+}
+/*==========================
+ over-veiw SECTION start
+============================*/
+
+.over-veiw{
+	background: url(../img/bodycover.png) no-repeat;
+	background-size: cover;
+	padding: 100px 0px;
+}
+
+.over-veiw h2{
+	color: white;
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+}
+.over-veiw h1{
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+}
+.over-veiw i {
+	color: white;
+	font-size: 70px;
+	font-weight: 600;
+	margin-left: 45%;
+}
+
+/*==========================
+ post SECTION start
+============================*/
+
+.post{
+	padding: 50px;
+}
+
+.post h1{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+}
+.post p{
+	font-size: 20px;
+	text-align: center;
+	font-weight: 400;
+	margin: 0px 40px;
+}
+
+/*==========================
+ post SECTION start
+============================*/
+
+.post-contant {
+	padding: 50px;
+}
+.post-contant img{
+	width: 90%;
+}
+.post-contant h3{
+	font-size: 25px;
+	padding: 0px 20px;
+}
+
+.post-contant p{
+	font-size: 14px;
+	font-size: 300;
+	color: #00bec9;
+	font-weight:300;
+	padding: 0px 20px;
+
+}
+
+.post-contant h6{
+	font-size: 14px;
+	font-weight: 300;
+	padding: 10px 20px;
+}
+.post-contant h5{
+	font-size: 14px;
+	font-size: 300;
+	color: #00bec9;
+	padding: 0px 20px;
+
+}
+.contant-1{
+	background:#f7f7f7;
+}
+
+.contant-2{
+	    box-shadow: 20px 15px 17px #f2f2f2;
+}
+
+/*==========================
+ post SECTION start
+============================*/
+
+footer{
+	padding: 100px 0px;
+	background: #343434;
+	z-index: -1;
+
+}
+
+footer h1{
+	color: white;
+	font-size: 30px;
+}
+footer p{
+	color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+footer ul{
+	padding: 0px;
+}
+
+footer a{
+	color: white;
+}
+footer li{
+	font-size: 15px;
+	font-weight: 300;
+}
+.yellow{
+	background: #daac00;
+    height: 70px;
+    width: 303px;
+    display: inline-block;
+    position: relative;
+}
+ 
+.yellow i{
+	font-size: 40px;
+	background: skyblue;
+	position: absolute;
+	right: 0px;
+    top: 0px;
+    bottom: 0px;
+    padding: 20px;
+    line-height: 30px;
+}
+
+.social-media li{
+	display: inline;
+}
+
+.social-media i{
+	background: #ffffff;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 20px;
+    margin: 20px 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 19px;
+    text-align: center;
+    color: black;
+    border: 1px solid transparent;
+}
+
+.social-media i:hover{
+	border: 1px solid white;
+	color: white;
+	background: transparent;
+}
+
+.about p{
+	margin: 5px 20px;
+}

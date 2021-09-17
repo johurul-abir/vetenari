@@ -1,0 +1,100 @@
+/*Media Query*/
+
+/*NoteBook Device*/
+@media (min-width: 768px) and (max-width: 990px){
+.yellow {height: 47px; width: 144px;}
+.corsur {width: 72px;height: 47px;}
+.social-media ul {margin-left: 0%;}
+label.logo{font-size: 25px;}
+ul li a{font-size: 15px;}
+.checkbtn{font-size: 20px;margin-left: 100px;}
+.search{padding-top: 6px;}
+.form-control{height: 29px;font-size: 13px;text-align: center;padding-top: 8px;padding-left: 23px;}
+nav ul li{display: inline;line-height: 49px;margin-left: 10px;}
+ nav ul {padding-right: 40px;}
+   
+}
+
+@media  (max-width: 768px){
+.checkbtn{display: block;}
+.logo {font-size: 25px;padding: 0px;}
+nav ul{background: #f8c291;height: 100vh;width: 100%;position: fixed;top: 50px;left: -100%;text-align: center;transition: .5s;}
+nav ul li{display: block;}
+a:hover,a.active{background: none;color: #eb2f06;}
+.active:hover{background:none;}
+#check:checked~ul{left: 0px}
+.checkbtn {margin-left: 35%;}
+.search{padding-top: 6px;}
+.form-control{height: 29px;font-size: 13px;text-align: center;padding-top: 8px;padding-left: 23px;}
+
+}
+
+
+
+/*Tablet Device*/
+@media (min-width: 575px) and (max-width: 768px){
+.hero h1 {font-size: 30px;padding: 20px 15px;}
+.hero p {padding: 3px 15px;}
+.hero button {font-size: 9px;padding: 7px 15px;margin-left: 26%;}
+.hero img {display: block;margin: 0 auto;padding-top: 48px;}
+.service h2 {font-size: 29px;text-align: center;}
+.service {padding: 67px 0px;}
+.service p {text-align: center;font-size: 12px;padding: 10px 5px;}
+.service button {font-size: 10px;padding: 8px 20px;display: block;margin: 0 auto;}
+.service img {width: 80%;display: block;margin: 0 auto;padding-top: 50px;}
+.title-here {background: #fcc302;padding-top: 30px;}
+.care { padding: 21px 0px;}
+.lover button {font-size: 12px;display: block;margin: 0 auto;}
+.lover h2 {text-align: center;}
+.lover p {font-size: 15px;text-align: center;}
+.lover {padding: 50px 0px;}
+.shop-title {padding: 42px 5px;}
+.shop-now button {margin-bottom: 50px;}
+.team {padding: 30px 0px;}
+.doctor {padding-bottom: 50px;}
+.dep{padding: 40px 0px;}
+.contant-1 img{ display: block;margin: 20px auto; }
+.post-contant img {width: 90%;padding-bottom: 30px;}
+.contant-2 {box-shadow: 20px 15px 17px #f2f2f2;margin-bottom: 50px;}
+footer {padding: 50px 0px;}
+footer .about{ text-align: center;margin-bottom: 30px; }
+.mid-contant{text-align: center; margin-bottom: 30px;}
+.footer-right{ text-align: center; margin-bottom: 30px; }
+.social-media ul {margin-left: 5%;}
+
+}
+
+/*Mobile Device*/
+@media (min-width: 320px) and (max-width: 575px){
+.search{padding-right: 5px;}
+.hero h1 {font-size: 30px;padding: 20px 15px;}
+.hero p {padding: 3px 15px;}
+.hero button {font-size: 9px;padding: 7px 15px;margin-left: 26%;}
+.hero img {display: block;margin: 0 auto;padding-top: 48px;}
+.service h2 {font-size: 29px;text-align: center;}
+.service {padding: 67px 0px;}
+.service p {text-align: center;font-size: 12px;padding: 10px 5px;}
+.service button {font-size: 10px;padding: 8px 20px;display: block;margin: 0 auto;}
+.service img {width: 80%;display: block;margin: 0 auto;padding-top: 50px;}
+.title-here {background: #fcc302;padding-top: 30px;}
+.care { padding: 21px 0px;}
+.lover button {font-size: 12px;display: block;margin: 0 auto;}
+.lover h2 {text-align: center;}
+.lover p {font-size: 15px;text-align: center;}
+.lover {padding: 50px 0px;}
+.shop-title {padding: 42px 5px;}
+.shop-now button {margin-bottom: 50px;}
+.team {padding: 30px 0px;}
+.doctor {padding-bottom: 50px;}
+.dep{padding: 40px 0px;}
+.contant-1 img{ display: block;margin: 20px auto; }
+.post-contant img {width: 90%;padding-bottom: 30px;}
+.contant-2 {box-shadow: 20px 15px 17px #f2f2f2;margin-bottom: 50px;}
+footer {padding: 50px 0px;}
+footer .about{ text-align: center;margin-bottom: 30px; }
+.mid-contant{text-align: center; margin-bottom: 30px;}
+.footer-right{ text-align: center; margin-bottom: 30px; }
+.social-media ul {margin-left: 5%;}
+
+
+}
